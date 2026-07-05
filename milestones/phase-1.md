@@ -1,4 +1,3 @@
-
 # Phase 1 - Capability 1: LinkedIn Publishing
 
 ## Day 1
@@ -16,17 +15,19 @@
 - Implemented local JSON-based history storage.
 - Dashboard now reads real data from local JSON via API.
 
+## Day 3
 
-## Day 3 (Planned)
-
-- Record publish initiation via API.
-- Update publish history after each publish action.
-- Integrate Vercel Blob for deployed environments.
-- Configure storage provider switching (Local ↔ Blob).
+- Implemented Publish Initiation recording.
+- Added publish history persistence through API.
+- Recent Activity now displays timestamps in the user's local timezone.
+- Added pagination for Recent Activity.
 
 ## Day 4 (Planned)
 
+- Integrate Vercel Blob for deployed environments.
+- Configure storage provider switching (Local ↔ Blob).
 - End-to-end testing (Desktop).
 - End-to-end testing (Mobile).
+- Added branding Colors
 - Research LinkedIn mobile app deep linking.
 - Release v0.1.0-alpha.
