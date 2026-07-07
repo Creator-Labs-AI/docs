@@ -22,12 +22,23 @@
 - Recent Activity now displays timestamps in the user's local timezone.
 - Added pagination for Recent Activity.
 
-## Day 4 (Planned)
+## Day 4
 
-- Integrate Vercel Blob for deployed environments.
-- Configure storage provider switching (Local ↔ Blob).
-- End-to-end testing (Desktop).
-- End-to-end testing (Mobile).
+- Integrated Vercel Blob as the cloud storage provider.
+- Added configurable storage provider abstraction (Local JSON ↔ Vercel Blob).
+- Configured environment-based storage switching.
+- Enabled persistent publish history across deployments.
+
+## Day 5 (Planned)
+
+- Perform end-to-end testing.
+- Validate Desktop publish workflow.
+- Validate Local JSON storage.
+- Validate Vercel Blob storage.
+- Validate Dashboard statistics and Recent Activity.
+- Tag and release **v0.1.0-alpha**.
+
+## Later
+
 - Added branding Colors
 - Research LinkedIn mobile app deep linking.
-- Release v0.1.0-alpha.
