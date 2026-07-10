@@ -13,6 +13,7 @@ docs/
 ├── architecture/
 ├── roadmap/
 ├── milestones/
+├── retrospectives/
 ├── playbooks/
 ├── adr/
 ├── assets/
@@ -30,4 +31,5 @@ docs/
 
 ## Status
 
-Current Phase: **Phase 0 – Foundation**
+Current Phase: Phase 2 – AI-Assisted Content Generation
+Latest Release: v0.1.1-alpha
