@@ -29,13 +29,17 @@
 - Configured environment-based storage switching.
 - Enabled persistent publish history across deployments.
 
-## Day 5 (Planned)
-
-- Perform end-to-end testing.
-- Validate Desktop publish workflow.
-- Validate Local JSON storage.
-- Validate Vercel Blob storage.
-- Validate Dashboard statistics and Recent Activity.
+## Day 5
+- Upgraded `@vercel/blob` from `0.27.3` to `2.6.1`.
+- Configured private Blob access for publish history storage.
+- Configured Vercel Blob authentication.
+- Implemented Blob token-based read/write operations.
+- Implemented append history for both Local JSON and Vercel Blob storage.
+- Completed end-to-end desktop testing.
+- Validated Desktop publish workflow.
+- Validated Local JSON storage.
+- Validated Vercel Blob storage.
+- Validated Dashboard statistics and Recent Activity.
 - Tag and release **v0.1.0-alpha**.
 
 ## Later
